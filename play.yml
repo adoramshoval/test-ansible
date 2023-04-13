@@ -7,3 +7,4 @@
     - name: loop
       debug:
         msg: "hello"
+      tags: ['never', 'test']
