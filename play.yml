@@ -1,0 +1,9 @@
+- hosts: projects
+  connection: local
+  serial: 1
+
+  tasks:
+
+    - name: loop
+      debug:
+        msg: "hello"
